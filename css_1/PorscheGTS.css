@@ -1,26 +1,124 @@
-body {
-    color: rgb(0, 135, 0);
-}
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
 
 
-.medium-small-image {
-    width: 330px;
-    height: 200px;
+header {
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 18px;
+}
+/* margin isn't working*/
+.TMATC-header-link {
+    margin-left: 30px;
+    margin-top: 10%; /*what? how do I align this with the ul list?*/
+    color: #fff;
+    text-decoration: none;
+    text-align: left; 
 }
 
-
-li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 50px;
-    margin-left: 50px;
+header h2 {
+    text-align: center;
+    font-size: 200%;
 }
+
 ul {
     text-align: right;
     margin-right: 50px;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1%;
+    margin-left: 1%;
+    font-family: Arial;
+    font-size: 120%;
+}
+
+ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.medium-small-image {
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+}
+img {
+    margin-left: 60%;
+}
+
+
+/* how do I get the paragraph and images next to each other? */
+.medium-small-image, .Paragraph {
+
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.Paragraph {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+main h1 {
+    font-size: 320%;
+}
+
+h3 {
+    color: #8e8e8e;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.footer-header {
+    text-align: left;
 }
